@@ -1,0 +1,22 @@
+CREATE TABLE flights (
+    id INT,
+    year SMALLINT,
+    month SMALLINT,
+	day_of_month SMALLINT,
+	day_of_week SMALLINT,
+	dep_time float8,
+	crs_dep_time INT,
+	arr_time float8,
+	crs_arr_time INT,
+	unique_carrier VARCHAR(2),
+	flight_num INT,
+	actual_elapsed_time float,
+	crs_elapsed_time int,
+	arr_delay float,
+	dep_delay float,
+	origin VARCHAR(4),
+	dest VARCHAR(4),
+	distance float,
+	cancelled SMALLINT,
+	diverted SMALLINT   
+);
